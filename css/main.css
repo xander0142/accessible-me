@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: lightcyan;
   margin: 0;
   padding: 0;
 }
@@ -25,6 +25,7 @@ img {
 }
 
 .main-nav ul {
+  background-color: lightskyblue;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -37,10 +38,10 @@ img {
   text-align: center;
 }
 
-.main-nav ul li a {
+.main-nav ul li a:hover {
   display: block;
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 1.25rem;
 }
 
